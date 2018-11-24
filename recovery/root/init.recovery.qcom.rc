@@ -137,8 +137,6 @@ on property:init.svc.recovery=running
 on property:ro.crypto.state=encrypted
     start sbinqseecomd
 
-    write /sys/devices/virtual/touch/tp_dev/gesture_on 1
-
 # Separate copy needed to use /sbin/linker64 instead of /system/bin/linker64
 service sbinqseecomd /sbin/qseecomd
     oneshot
