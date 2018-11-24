@@ -1,7 +1,7 @@
 [
   {
     "remote":"github",
-    "repository": "ArrowOS-devices/android_kernel_zuk_msm8996",
+    "repository": "DD3Boh/android_kernel_zuk_msm8996",
     "target_path": "kernel/zuk/msm8996",
     "revision":"twrp"
   }
